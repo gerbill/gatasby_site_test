@@ -8,3 +8,10 @@ export default function AboutPage (){
     </main>
   )
 }
+
+export const Head = () => (
+  <>
+    <title>About Me</title>
+    <meta name="description" content='About me page'/>
+  </>
+)
