@@ -4,5 +4,8 @@ module.exports = {
     description: `This is my first Gatsby site to test this framework!`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
