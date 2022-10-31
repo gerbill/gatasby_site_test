@@ -6,7 +6,6 @@ import Seo from "../../components/seo";
 
 export default function BlogPost({ data, children }) {
   const image = getImage(data.mdx.frontmatter.hero_image);
-  console.log(image);
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
       <p>Posted: {data.mdx.frontmatter.date}</p>
